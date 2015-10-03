@@ -1,0 +1,58 @@
+pwd
+	lists present working directory
+
+ls
+	directory listing
+
+cd [directory-name]
+	go into [directory-name]
+
+mkdir [directory-name]
+	make new folder with name [directory-name]
+
+touch [file.extension]
+	creates a new file with name [file.extension]
+
+git init
+	used to create a new git repository
+
+git status
+	tells us the status of our working directory
+
+git add [file]
+	tells git to start tracking a specific [file]
+
+git commit -m 'MESSAGE'
+	commits change into repository
+
+git log
+	shows us all the commits that were made
+
+git log --oneline
+	shows us all the commits in one line
+
+git diff
+	shows us what has changed between our working directory and staging area
+
+Branches - parallel universes where we can work on different things in isolation
+
+git branch
+	gives a list of all branches in the repository
+
+git branch [name]
+	creates a new branch [name]
+
+git checkout [branch-name]
+	switches to branch [branch-name]
+
+git merge [branch-name]
+	merges changes on [branch-name] into current branch
+
+git checkout [commit-id]
+	switches to [commit-id]
+
+git revert -no-edit [commit-id]
+	switches to [commit-id]
+	
+git reset --hard
+	resets the working directory
